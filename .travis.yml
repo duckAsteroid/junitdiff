@@ -4,7 +4,7 @@ deploy:
   provider: releases
   api_key:
     secure: DPkD84nlK+OFX9/xxkRHshMIeg83aZ0PL57/mwbQcMmHvLVOxLrt1HACE5lMKnS7tnssii0H+gRzDTWK+6+ohQGpN2KyGOxk6cQw5UnV6pQ76D57ncF+fSpFNKZvxp2xXApIWyWmoPYAtu291dRfxoSQmWiYAj1wX7UyYZ2FKqAzoZrKOBqn1z8onpSS10qMQyfRtStn/+ZqCjCIHm9yq5SvwdMCeZJzPFpPXOzAcU40WUq39wPV8rzzwfqxlLXSvSLttX+oVYmtVqf485HFEdXFVA+F4KDoTDChrb3WkRcl8l9HVbMjhHt7VDxpYFBhFYsahEDFEUZFjop3X+GisqVtjbgIjR/dMGol1CY4Kfo7Ms+ZEm0MP4pouSbfz4Txb6Aliu9eu3Hga2IUwUtP7ps/5thz/1KrABvh6AkbyLtH2xOvpYOBTNx3fFgL8K2HP7QyGSuiZ29zIjiSWvptUZUdC8k/PyAalUyL1N5OyFjOuXYNAVHqdQLMxoQjpZ+M1XCI2CNC0890W2dSTKnKIXDENWFvH+aEZPwwz8Ouecf/6jxttEUZjFJ9yn+3sl48/apbAz3XBVc9oXPj0Qq1SXX+Ll/6BI+HS7zc0NXSlI5rWaisyQ8BunQviP8zV43LCQD2UUSzaY7bgxmj0qEkwNOVpfSCky+wKu/6J8pS6wM=
-  file: target/junitdiff.jar
+  file: target/JUnitDiff-1.5.7-SNAPSHOT.jar
   on:
     tags: true
     repo: duckAsteroid/junitdiff
