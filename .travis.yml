@@ -6,4 +6,4 @@ deploy:
   file: target/junitdiff.jar
   on:
     repo: duckAsteroid/junitdiff
-    branch: damaster
+    branch: master
