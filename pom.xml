@@ -13,7 +13,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <mainClass>org.jboss.qa.junitdiff.JUnitDiffApp</mainClass>
         <distDir>${project.basedir}/../dist</distDir>
-        <jvm.args.debug></jvm.args.debug>
+        <jvm.args.debug/>
     </properties>
     
     <scm>
@@ -51,9 +51,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>  <artifactId>maven-antrun-plugin</artifactId> <executions> <execution>
                 <phase>clean</phase>  <goals> <goal>run</goal> </goals>  <configuration> <tasks>
-                    <unzip src="src/test/data/hibernate-ann-run1.zip" dest="target/sample-data/" overwrite="true" />
-                    <unzip src="src/test/data/hibernate-ann-run2.zip" dest="target/sample-data/" overwrite="true" />
-                    <unzip src="src/test/data/hibernate-ann-run3.zip" dest="target/sample-data/" overwrite="true" />
+                    <unzip src="src/test/data/hibernate-ann-run1.zip" dest="target/sample-data/" overwrite="true"/>
+                    <unzip src="src/test/data/hibernate-ann-run2.zip" dest="target/sample-data/" overwrite="true"/>
+                    <unzip src="src/test/data/hibernate-ann-run3.zip" dest="target/sample-data/" overwrite="true"/>
                 </tasks> </configuration> </execution> </executions>
             </plugin>
 
@@ -100,7 +100,7 @@
                 <executions> <execution> <id>copy-dist</id> <phase>install</phase> <goals> <goal>run</goal> </goals>
                 <configuration> <target>
                     <!--<copy file="${project.build.directory}/dist/${project.artifactId}.${project.packaging}" todir="${project.build.directory}/dist/${project.version}" verbose="true" />-->
-                    <copy file="${project.build.directory}/dist/${project.artifactId}.${project.packaging}" todir="${distDir}/${project.version}" verbose="true" />
+                    <copy file="${project.build.directory}/dist/${project.artifactId}.${project.packaging}" todir="${distDir}/${project.version}" verbose="true"/>
                 </target> </configuration> </execution> </executions>
             </plugin>
 
@@ -154,7 +154,7 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>2.4</version>
+            <version>20030203.000550</version>
         </dependency>
 
 
